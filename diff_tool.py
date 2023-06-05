@@ -2,6 +2,7 @@ import argparse
 import difflib
 from pathlib import Path
 
+#python3 diff_tool.py oldDB.txt newDB3Thursday.txt --html output.html
 
 def create_diff(old_file: Path, new_file: Path, html_output: Path = None):
     file1_lines = old_file.read_text(encoding='utf-8').splitlines()
