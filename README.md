@@ -22,3 +22,36 @@ Clone the repository to your local machine:
 ```
 git clone https://github.com/KaelSM/diff-tool.git
 ```
+
+### Usage
+
+To compare two files and view the differences in the console:
+```
+ython3 diff_tool.py oldText.txt newText.txt
+```
+To generate an HTML file that visualizes the differences:
+```
+python3 diff_tool.py oldText.txt newText.txt --html output.html
+```
+Open the generated `output.html` in a web browser to view the highlighted differences.
+
+## Upcoming Enhancements (To-do)
+
+- [ ] Implement a split-view display for side-by-side text comparison.
+- [ ] Introduce interactive text highlights to pinpoint differences.
+- [ ] Add scrollable buttons for seamless navigation through changes.
+- [ ] Enable the download of a comprehensive change log.
+- [ ] Incorporate navigational buttons to jump between changes.
+- [ ] Facilitate the generation of seed files from identified differences.
+
+## Contribution
+
+We encourage community participation and contribution to this project. Please see [CONTRIBUTING.md](#) for more details on submitting pull requests. For major changes, please open an issue first to discuss what you would like to improve.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/KaelSM/diff-tool/blob/main/LICENSE) file for details.
+
+## Contact
+
+For any inquiries or issues, please open an issue on the [issues page](https://github.com/KaelSM/diff-tool/issues) of this repository.
