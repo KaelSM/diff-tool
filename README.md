@@ -1,5 +1,8 @@
 # Diff-Tool: Comprehensive Text File Comparison
 
+![diff](https://github.com/KaelSM/diff-tool/assets/113145289/199df5aa-adf9-4178-b94a-abcf26487438)
+
+
 Diff-Tool is an innovative utility designed for contrasting two text files, providing a detailed, user-friendly visualization of differences. The tool generates an HTML file highlighting the discrepancies, enabling users to navigate and understand changes efficiently. This functionality is particularly beneficial for reviewing extensive files or SQL queries, streamlining the creation of seed files.
 
 ## Features
